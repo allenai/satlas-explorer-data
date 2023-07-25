@@ -1,7 +1,7 @@
 ## Geospatial Data
 
 The AI-generated geospatial data in Satlas Explorer can be downloaded using the links below.
-All data is released under the Apache License 2.0.
+All data is released under ODC-BY.
 
 ### Marine Infrastructure (Off-shore Turbines and Platforms)
 
