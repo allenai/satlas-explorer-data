@@ -48,14 +48,14 @@ The GeoTIFF contains a single 8-bit band, with these values:
 
 ### Renewable Energy Infrastructure (On-shore Wind Turbines and Solar Farms)
 
-Renewable energy infrastructure points (on-shore wind turbines) and polygons (solar farms) are available as a single GeoJSON file:
+Renewable energy infrastructure points (on-shore wind turbines) and polygons (solar farms) are available as monthly GeoJSON files:
 
-- GeoJSON: https://pub-956f3eb0f5974f37b9228e0a62f449bf.r2.dev/outputs/renewable/renewable.geojson
+- GeoJSON: https://pub-956f3eb0f5974f37b9228e0a62f449bf.r2.dev/outputs/renewable/YYYY-MM.geojson
+
+Replace YYYY-MM with a year between 2016 and 2022, and month either 01 or 07.
 
 Each feature is annotated with these attributes:
 - `category`: either `wind_turbine` or `solar_farm`
-- `start`: when the object was constructed
-- `end`: when the object was removed, or `2022-12` if still present
 
 ### Super-Resolution
 
